@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reef Life Foundation</title>
+</head>
+
+<body class="no-scroll">
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img src="Screenshot 2024-06-11 at 03.57.15.png" alt="Logo">
+            </a>
+        </div>
+        <a class="titlelink" href="index.html">
+            <h1>Home</h1>
+        </a>
+        <a class="titlelink" href="effect.html">
+            <h1>Effect of Hurricane Irma</h1>
+        </a>
+        <a class="titlelink" href="rfl.html">
+            <h1>Reef Life Foundation’s Impact</h1>
+        </a>
+        <a class=" titlelink" href="game.html">
+            <h1>Game</h1>
+        </a>
+        <div class="donate">
+            <button class="donate-btn" onclick="toggleDonatePopup()">
+                <h1>Donate Now</h1>
+            </button>
+        </div>
+    </nav>
+    <div class="popup-menu-donate" id="popup-menu-donate">
+        <div class="close-btn-donate" onclick="closeDonatePopup()">X</div>
+        <div class="popup-content" style="background-image: url('certificate.jpeg');">
+            <a href="https://www.reeflifefoundation.org/gift-a-reef" target="_blank">Donation Certificate</a>
+        </div>
+        <div class="popup-content" style="background-image: url('reefdiver.jpeg');">
+            <a href="https://www.reeflifefoundation.org/gift-a-reef" target="_blank">Adopt a Reef</a>
+        </div>
+        <div class="popup-content" style="background-image: url('donateimage.png');">
+            <a href="https://www.globalgiving.org/donate/73781/reef-life-foundation/" target="_blank">Give Money</a>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <video width="95%" height="auto" autoplay loop muted>
+            <source src="Screen Recording 2024-06-11 at 03.07.21.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="typing-text">
+            <div class="line1">THE OCEAN NEEDS YOUR HELP!!</div>
+            <a href="effect.html" class="line2">Click me</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
